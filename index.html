@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href = "./index.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="calendar_wrap">
+        <div class="calendar_table">
+            <table id="table_id">
+            <button class='reduce_table'><</button>
+            <caption class="caption_month">месяц</caption>
+            <button class='increase_table'>></button>
+            <tr>
+                <th>пн</th>
+                <th>вт</th>
+                <th>ср</th>
+                <th>чт</th>
+                <th>птн</th>
+                <th>сб</th>
+                <th>вс</th>
+            </tr>
+            </table>
+        </div>
+    </div>
+
+   
+            <div class="prompt_form_container none_form">
+               <form class="prompt_form">
+                   <p class='prompt_message'> Заполните события на текущий день:</p>
+                    <input class='text_event'type="text" name="form_event" id="input_form">
+                    <input class='submit_button'  type="submit" value="Сохранить">
+                    <input class='cancle_button'type="button" name="cancel" value="Отмена">
+               </form>
+            </div>
+        
+    <script src="./calendar.js"></script>
+</body>
+</html>
