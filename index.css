@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   width: 100%;
@@ -74,3 +75,58 @@ body {
     border:1px solid #888;
 }
 
+=======
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.active{
+    background-color: dimgray;
+}
+.prompt_form{
+    display: inline-block;
+    padding: 5px 5px 5px 70px;
+    width: 200px;
+    border: 1px solid black;
+    background: white url(https://js.cx/clipart/prompt.png) no-repeat left 5px;
+    vertical-align: middle;
+}
+.prompt_form_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#cover_div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+}
+
+.prompt_form_container:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+}
+.prompt_form input[name="text"] {
+    display: block;
+    margin: 5px;
+    width: 180px;
+}
+.none_form{
+    display:none;
+}
+>>>>>>> 10a31a832a664d8c087686177abb9ad1bd276b18
