@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href = "./index.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="calendar_wrap">
+        <div class="calendar_table">
+            <table id="table_id">
+            <button class ="currentMonthButton">Тепершний месяц</button>
+            <button class='reduce_table'>Месяц назад</button>
+            <caption class="caption_month">месяц</caption>
+            <button class='increase_table'>Месяц вперед</button>
+            <tr>
+                <th>пн</th>
+                <th>вт</th>
+                <th>ср</th>
+                <th>чт</th>
+                <th>птн</th>
+                <th>сб</th>
+                <th>вс</th>
+            </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="prompt_form_container none_form">
+       <form class="prompt_form" id="prompt_form">
+            <div class="form-group">
+                <label class='prompt_message'> Заполните события на текущий день:
+                    <input class='input-field' type="text" name="form_event" id="form_event">
+                </label>
+            </div>
+            <div class="form-group">
+                <input class='submit_button' type="submit" value="Сохранить">
+                <input class='cancle_button' type="button" name="cancel" value="Отмена">
+            </div>
+       </form>
+    </div>
+    
+    <div id="cover_div"></div>
+
+    <script src="./calendar.js"></script>
+</body>
+</html>
