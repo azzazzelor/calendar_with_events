@@ -167,7 +167,6 @@
 
         function getValueOfEvent(data, target){
             data.forEach(function(key,value){
-                debugger;
                 objectEvents[value] = key;
                 target.innerHTML += `<p>${objectEvents.form_event}S</p>`
 
